@@ -1,0 +1,19 @@
+.navbar > * {
+    display: inline-block;
+    padding: 24px 0;
+    color: rgba(128, 124, 124, 0.931);
+}
+
+.inactive {
+    font-size: small;
+}
+
+.active {
+    font-size: medium;
+    color: blueviolet;
+}
+
+.arrow {
+    color: blueviolet;
+    font-size: large;
+}

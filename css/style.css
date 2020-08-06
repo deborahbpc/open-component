@@ -1,0 +1,46 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&family=Raleway:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+@import url('components/avatar.css');
+@import url('components/navbar.css');
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-image: url('../images/fundo-em-po-abstrato-splatted-explosao-de-po-colorido-sobre-fundo-branco_44314-141.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-weight: 900;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+p {
+  padding: 10% 20%;
+  font-family: 'Raleway';
+  color: grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: white;
+  text-align: center;
+  justify-content: space-around;
+}
+
