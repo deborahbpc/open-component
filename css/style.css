@@ -1,20 +1,22 @@
 /* Fonts */
+
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
 @import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,900;1,400;1,900&family=Raleway:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 /* Components */
+
 /* @import url("components/name_of_component.css"); */
+
 @import url('components/avatar.css');
 @import url('components/navbar.css');
-
 body {
   margin: 0;
   margin-bottom: 100px;
   font-family: "Open Sans", "Helvetica", "sans-serif";
-  background-image: url('../images/fundo-em-po-abstrato-splatted-explosao-de-po-colorido-sobre-fundo-branco_44314-141.jpg');
+  background-image: url('../images/explosao-de-po-colorido-no-fundo-branco_1112-1555.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -27,7 +29,7 @@ h2 {
 }
 
 p {
-  padding: 10% 20%;
+  padding: 10% 10%;
   font-family: 'Raleway';
   color: grey;
 }
@@ -45,3 +47,47 @@ p {
   border-radius: 5px;
 }
 
+/* @media (max-width: 800px) {
+  body {
+    margin: 0;
+    margin-bottom: 100px;
+    font-size: large;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .container {
+    padding: 30px 20px;
+    width: 50%;
+    margin: 10% auto;
+  }
+  .bio {
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    margin-bottom: 100px;
+    font-size: xx-large;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .container {
+    padding: 30px 20px;
+    width: 60%;
+    margin: 10% auto;
+  }
+  .header h1 {
+    font-size: large;
+  }
+  .header h2 {
+    color: #634DB2;
+    font-size: large;
+  }
+  .bio {
+    font-size: large;
+  }
+} */
