@@ -1,16 +1,21 @@
-.navbar > * {
-    display: inline-block;
+.navbar {
+    display: flex;
     padding: 24px 0;
     color: rgba(128, 124, 124, 0.931);
+    margin: 0px 3%;
+    justify-content: space-around;
 }
 
 .inactive {
-    font-size: small;
+    font-size: x-small;
+    align-self: center;
+    color: rgba(128, 124, 124, 0.931);
 }
 
 .active {
-    font-size: medium;
+    font-size: small;
     color: blueviolet;
+    align-self: center;
 }
 
 .arrow {
