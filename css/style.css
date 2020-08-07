@@ -41,6 +41,6 @@ p {
   margin: 40px auto;
   background-color: white;
   text-align: center;
-  justify-content: space-around;
+  border-radius: 5px;
 }
 
